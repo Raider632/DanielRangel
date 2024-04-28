@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://cdn.dribbble.com/users/5350544/screenshots/14116090/pro_player_gaming_mascot_logo_4x.jpg');
+            background-size: cover;
+    font-family: Arial;
+}
+.form-login{
+    width: 400px;
+    height: 340px;
+    background: #0db7f4;
+   margin:auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #4b25d6;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: rgb(5, 5, 5);
+
+}
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1 solid;
+    font-size: 20px;
+}
+.controls {
+    width: 100%;
+    height: 30px;
+background: #eff3f5;
+border: 3px solid #2b06be;
+padding: 11px 10px;
+color: rgb(0, 0, 0);   
+margin-bottom: 15px;
+font-size: 14px;
+font-size: bold;
+}
+.buttons{
+    width: 100%;
+    height: 35px;
+    background: #010101;
+    border: none;
+    color: #f5f2f2;
+    margin bottom: 16px;
+    cursor: pointer;
+}
+.form-login p {
+    height: 45px;
+    text-align: center;
+    border-bottom:1px solid;
+}
+.form-login a:hover{
+    text-decoration: underline;
+}

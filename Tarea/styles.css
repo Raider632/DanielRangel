@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro de Usuario</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.n6v7H3T2bLrSquf_ru6LAQHaE8?rs=1&pid=ImgDetMain');
+            background-size: cover;
+
+            font-family: Arial, sans-serif;
+        }
+
+        .form-register {
+            background-color: var(--gris);
+            width: min(60rem, 100%); /** utilizar el valor más pequeño**/
+            margin: 0 auto;
+            padding: 2rem;
+            border: 1rem;
+        }
+
+        .form-register h5 {
+            margin: 0;
+            text-align: center;
+            height: 20px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgb(0, 255, 247);
+            font-size: 20px;
+            background-color: #00ccff; /* Fondo para el título */
+            padding: 10px; /* Espaciado interno para el título */
+        }
+
+        .controls {
+            width: 100%;
+            height: 30px;
+            background: #eff3f5;
+            border: 3px solid #2b06be;
+            padding: 11px 10px;
+            color: rgb(0, 0, 0);
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    
+        
+
+        .buttons {
+            width: 100%;
+            height: 35px;
+            background: #0099ff;
+            border: none;
+            color: #f5f2f2;
+            margin-bottom: 16px;
+            cursor: pointer; 
+        }
+
+        .form-register p {
+         background-color: var(--gris);
+  width: min(60rem, 100%); /** utilizar el valor más pequeño**/
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1rem;
+        }
+
+        .form-register a{
+            display: circle;
+            text-align: center;
+            background-color: #4a0dce; /* Fondo para el enlace */
+            padding: 10px; /* Espaciado interno para el enlace */
+            text-decoration: none;
+            color: rgb(65, 237, 166);
+        }
+        .form-register a:hover {
+            text-decoration: underline;}
+        
+    </style>
+</head>
+<body>
+    <section class="form-register">
+        <h5>Formulario de Registro</h5>
+        <input class="controls" type="text" placeholder="Nombre">
+        <input class="controls" type="text" placeholder="Apellidos">
+        <input class="controls" type="text" placeholder="Código Postal">
+        <input class="controls" type="text" placeholder="Ciudad">
+        <input class="controls" type="email" placeholder="Correo Electrónico">
+        <input class="buttons" type="submit" value="Registrarse">
+        <p><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran">¿?</a></p>
+    </section>
+</body>
+</html>
